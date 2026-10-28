@@ -1,0 +1,27 @@
+CREATE DATABASE vedic_dynamics;
+USE vedic_dynamics;
+
+CREATE TABLE simulations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sim_name VARCHAR(255),
+    gravity FLOAT,
+    bounce FLOAT
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#only for use of running program run this in vscode or other compiler...
+streamlit run app.py
